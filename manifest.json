@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Bill Hicks Quotes",
+  "description": "Replaces new tab page with a random Bill Hicks quote",
+  "version": "0.1",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "icons": { 
+    "16": "bill_hicks_16.png",
+    "48": "bill_hicks_48.png",
+    "128": "bill_hicks_128.png" 
+  }
+}
