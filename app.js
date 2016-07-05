@@ -56,7 +56,8 @@ document.addEventListener('DOMContentLoaded', function() {
     "I believe that there is an equality to all humanity: We all suck.",
     "By the way if anyone here is in advertising or marketing... kill yourself. It’s just a little thought. I’m just trying to plant seeds.",
     "Quit putting a goddamn dollar sign on every fucking thing on this planet!",
-    "You watch the news these days? It's unbelievable. You think you just walk out your door, you're immediately gonna be raped by some crack-addicted, AIDS-infected pitbull."
+    "You watch the news these days? It's unbelievable. You think you just walk out your door, you're immediately gonna be raped by some crack-addicted, AIDS-infected pitbull.",
+    "I get a kick out of being an outsider constantly. It allows me to be creative. I don't like anything in the mainstream and they don't like me."
   ];
   var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
   document.getElementById("quote").textContent = randomQuote;
